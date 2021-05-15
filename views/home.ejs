@@ -9,7 +9,11 @@
   
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
+
+	  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
   
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -18,192 +22,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <style>
-      
-body {
-  font-family: "Montserrat";
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
-}
-
-p {
-  color: #8f8f8f;
-}
-
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
-
-.container-fluid{
-  padding: 7% 15%;
-}
-
-/* Sections */
-
-.colored-section {
-  background-color: #ff4c68;
-  color: black;
-}
-
-.white-section {
-  background-color: #fff;
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
-#title {
-  background-color:white;
-  color: black;
-  text-align: left;
-}
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-}
-
-/* Features Section */
-
-#features {
-  position: relative;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-}
-
-.feature-box {
-  padding: 4.5%;
-}
-
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-/* CTA Section */
-
-
-/* Footer Section */
-
-
-.social-icon {
-  margin: 20px 10px;
-}
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
-    </style>
+   
 </head>
 <body>
-    <!-- <hr> -->
-    <section class="colored-section" id="title">
+    <section class="home" id="title">
 
       <div class="container-fluid">
   
@@ -221,13 +43,13 @@ p {
   
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#features">For users</a>
+                <a class="nav-link" href="#users">For users</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">For customers</a>
+                <a class="nav-link" href="#customers">For customers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cta">For investors</a>
+                <a class="nav-link" href="#investors">For investors</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#0">More</a>
@@ -236,24 +58,26 @@ p {
   
           </div>
         </nav>
+        <hr>
   
+        <!-- Home -->
   
-        <!-- Title -->
-  
-        <div class="row">
+        <div class="row bhome">
   
           <div class="col-lg-6">
             <h1 class="big-heading">CiSApp</h1>
-            <p>Transforming the</p>
-            <p>world of social media</p>
-            <p>Register for alpha access of our app by using the</p>
-            <p>access code</p>
-            <button type="button" class="btn btn-dark btn-lg download-button">Get access code</button>
-            <button type="button" class="btn btn-dark btn-lg download-button">Know more</button>
+            <p class="trans">Transforming the</p>
+            <p class="trans">world of social media</p>
+            <p class="regis">Register for alpha access of our app by using the</p>
+            <p class="regis">access code</p>
+            <button type="button" class="btn btn-blue-dark btn-lg download-button">Get access code</button>
+            <button type="button" class="btn btn-light btn-outline-dark btn-lg download-button">Know more</button>
           </div>
   
           <div class="col-lg-6">
-            <img class="title-image" src="../images/images/Screenshot 2021-03-21 at 3.30 1.png" alt="phone">
+            <img class="ti1" src="/images/images/phone-1-1.svg" alt="l-phone">
+            <img class="ti3" src="/images/images/phone-1-3.svg" alt="r-phone">
+            <img class="ti2" src="/images/images/phone-1-2.svg" alt="mid-phone">
           </div>
   
         </div>
@@ -263,165 +87,164 @@ p {
     </section>
   
   
-    <!-- Features -->
+    <!-- For Users -->
   
-    <section class="white-section" id="features">
+    <section class="user" id="users">
       <h2 class="section-heading">For Users</h2>
-      <div class="container-fluid">
-        <!-- <h1 class="big-heading">For users</h1> -->
-        <div class="row">
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3 class="feature-title">Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
-          </div>
-  
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-bullseye fa-4x"></i>
-            <h3 class="feature-title">Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
-          </div>
-  
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3 class="feature-title">Guaranteed to work.</h3>
-            <p>Find the love of your dog's life or your money back.</p>
-          </div>
-        </div>
-  
-  
-      </div>
-    </section>
-  
-  
-    <!-- Testimonials -->
-  
-    <!-- <section class="colored-section" id="testimonials">
-  
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-            <em>Pebbles, New York</em>
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em>Beverly, Illinois</em>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-  
-    </section> -->
-  
-  
-    <!-- Press -->
-  
-    <!-- <section class="colored-section" id="press">
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-  
-    </section> -->
-  
-  
-    <!-- Pricing -->
-  
-    <section class="white-section" id="pricing">
-  
-      <h2 class="section-heading">For Creators</h2>
-  
       <div class="row">
-  
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <!-- <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div> -->
-            <div class="card-body">
-              <!-- <h2 class="price-text">Free</h2>
-              <p>5 Matches Per Day</p> -->
-              <h3>Create videos</h3>
-              <h3>using AR effects</h3>
-              <!-- <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button> -->
-            </div>
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-1-1.svg" alt="l-phone" style="width:60%">
+          <div class="caption">
+            <p>Publish inspiring articles</p>
           </div>
         </div>
-  
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <!-- <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div> -->
-            <div class="card-body">
-              <!-- <h2 class="price-text">Free</h2>
-              <p>5 Matches Per Day</p> -->
-              <h3>Make Creater</h3>
-              <h3>account</h3>
-              <!-- <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button> -->
-            </div>
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-1-2.svg" alt="mid-phone" style="width:60%">
+          <div class="caption">
+            <p>Create multiple account spaces</p>
           </div>
         </div>
-  
-        <div class="pricing-column col-lg-4">
-          <div class="card">
-            <!-- <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div> -->
-            <div class="card-body">
-              <!-- <h2 class="price-text">Free</h2>
-              <p>5 Matches Per Day</p> -->
-              <h3>Chat using</h3>
-              <h3>Private Chat</h3>
-              <!-- <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button> -->
-            </div>
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-1-3.svg" alt="r-phone" style="width:60%">
+          <div class="caption">
+            <p>Choose corners in feed</p>
           </div>
         </div>
-  
-  
-  
       </div>
+      <!-- <div class="c1">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div> -->
+      <!-- <div class="c2">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div>
+      <div class="c3">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div> -->
+    </section> 
+    
+     <!-- For Creators -->
   
+     <section class="Creator" id="Creators">
+      <h2 class="section-heading">For Creators</h2>
+      <div class="row">
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-2-1.svg" alt="Snow" style="width:60%">
+          <div class="caption">
+            <p>Create using AR/VR effects.</p>
+          </div>
+        </div>
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-2-2.svg" alt="Forest" style="width:60%">
+          <div class="caption">
+            <p>Make creator account</p>
+          </div>
+        </div>
+        <div class="column">
+          <img class="ci-1" src="/images/images/phone-2-3.svg" alt="Mountains" style="width:60%">
+          <div class="caption">
+            <p>Chat using Private Chat</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="c1">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div> -->
+      <!-- <div class="c2">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div>
+      <div class="c3">
+        <div class="col-lg-6">
+          <img class="title-image" src="/images/images/phone-2-2.svg" alt="phone">
+        </div>
+      </div> -->
+    </section> 
+    
+    <!-- investors -->
+    <!-- <section class="investors" id="investor">
+      <div class="row">
+        <div class="column">
+          <img src="" alt="i-1">
+          <img src="" alt="i-2">
+          <img src="" alt="i-3">
+        </div>
+        <p>djvksnvkn</p>
+      </div>
+      
+    </section> -->
+
+    <!--Footer-->
+
+    <section class="footer" id="foote">
+      <nav class="navbar navbar-expand-lg">
+  
+        <a class="navbar-brand" href="">CiS</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#investors">Register for alpha access.</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-blue btn-lg download-button">Get access code</button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <div class="navbar">
+        <div class="footer-1">
+          <h2>Subscribe to our latest updates</h2>
+          <button type="button">Email address</button>
+        <p class="footer-links">
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+      <div class="footer-2">
+        <h3>CiSApp</h3>
+        <a class="nav-link" href="#users">For users</a>
+        <a class="nav-link" href="#customers">For customers</a>
+        <a class="nav-link" href="#investors">For investors</a>
+       </div>
+       <div class="footer-3">
+        <h3>More</h3>
+        <a class="nav-link" href="#users">Blogs</a>
+        <a class="nav-link" href="#customers">About us</a>
+        <a class="nav-link" href="#investors">Team</a>
+        <a class="nav-link" href="#investors">Careers</a>
+       </div>
+       <div class="footer-4">
+        <h3>Help</h3>
+        <a class="nav-link" href="#customers">FAQs</a>
+        <a class="nav-link" href="#investors">Contact us</a>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+       </div>
+      </div>
+      
     </section>
-  
-  
-    <!-- Call to Action -->
-  
-    <section class="colored-section" id="cta">
-  
-      <div class="container-fluid">
-        <img src="" alt="1st">
-        <img src="" alt="2nd">
-        <img src="" alt="3rd">
-        <h4>How are we going to revolutionise Social Media</h4>
-        <p>By a process called 'Digital Profiling', information about individuals is gathered and analysed from their interaction with a digital data network.</p>
-        <!-- <h3 class="big-heading">abc</h3> -->
-        <!-- <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
-        <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button> -->
-      </div>
-    </section>
-  
-  
-    <!-- Footer -->
-  
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <i class="social-icon fab fa-facebook-f"></i>
-        <i class="social-icon fab fa-twitter"></i>
-        <i class="social-icon fab fa-instagram"></i>
-        <i class="social-icon fas fa-envelope"></i>
-        <p>© Copyright 2021 CiSApp</p>
-      </div>
-    </footer>
-  
-  
 </body>
 </html>
