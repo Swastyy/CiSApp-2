@@ -74,6 +74,10 @@ Fill: Solid
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.investors {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 .footer {
   background-color: #1D1D1D;
   color: white;
@@ -160,6 +164,72 @@ Fill: Solid
   }
 }
 
+/*investors*/
+/* .icolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+} */
+.icolumn{  
+  width: 250px;
+  height: 120px;
+  margin: 20px;
+  border: 0px solid black;
+  position: relative;
+}   
+.iwcolumn{  
+  width: 250px;
+  height: 120px;
+  margin: 20px;
+  border: 0px solid black;
+  position: relative;
+}    
+.irow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.i-h-1 {
+  max-height: 150%;  
+  max-width: 100%; 
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+.i-h-2 {
+  max-height: 470%;  
+  max-width: 100%; 
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+.i-v-1 {
+  max-height: 250%;  
+  max-width: 100%; 
+  position: absolute;  
+  top: 0;  
+  bottom: 320%;  
+  left: 120%;  
+  right: 0;  
+  margin: auto;
+}
+.iw {
+  max-height: 250%;  
+  max-width: 100%; 
+  position: absolute;  
+  font-size: 0.2rem;
+  top: 0;  
+  bottom: 820%;  
+  left: 240%;  
+  right: 0;  
+  margin: auto;
+}
 /* footer */
 .footer-1 {
   padding-top: 2rem;
